@@ -1,0 +1,104 @@
+[
+		{
+			"name": "Mr Wilson",
+			"codeNumber": "LST01",
+			"Specialization":"Motor Engine Mechanic",
+			"phoneNumber" : "08012124353", 
+			"address": "Party Str. Shomolu, Lagos",
+			"imgurl" : "tech1.jpg",
+			"services": ["Engine servicing", "New engine installation", "service 3"]
+		},
+
+		{
+			"name": "Plaintiff Diagnostic Center",
+			"codeNumber": "LST02",
+			"Specialization":"Motor Diagnostic Technician",
+			"phoneNumber" : "08046678354",
+			"address": "#30, Daniel Wilson Str, Abuja",
+			"imgurl" : "tech2.jpg",
+			"services": ["Vehicle diagnisis with automated system", "Servicing", "Other services"]
+		},
+
+		{
+			"name": "Trailer Repair World",
+			"codeNumber": "LST03",
+			"Specialization":"Commercial Trailer Technician",
+			"phoneNumber" : "07033154533",
+			"address": "Gbagada Phase 2 gate, Lagos",
+			"imgurl" : "tech3.jpg",
+			"services": ["Trailer servicing", "Another sercvice rendered", "service 3"]
+		},
+
+		{
+			"name": "Testing Ground Center",
+			"codeNumber": "LST03",
+			"Specialization":"Automotive Vehicle Testing Mechanic",
+			"phoneNumber" : "09034356433",
+			"address": "Gbagada Phase 2 gate, Lagos",
+			"imgurl" : "tech4.jpg",
+			"services": ["Service 1", "service 2", "service 3"]
+		},
+
+		{
+			"name": "Mr Ladi Workshop",
+			"codeNumber": "LST05",
+			"Specialization":"Automotive Service Technician",
+			"phoneNumber" : "08064437356",
+			"address": "Badagry Roundabout, Lagos",
+			"imgurl" : "tech5.jpg",
+			"services": ["Service 1", "service 2", "service 3"]
+		},
+
+		{
+			"name": "Freask Automobiles",
+			"codeNumber": "LST06",
+			"Specialization":"Transmission Technician",
+			"phoneNumber" : "07032153533",
+			"address": "Mile 2 Bus-stop, Lagos",
+			"imgurl" : "tech6.jpg",
+			"services": ["Transmission fluid check", "Full transmission swap", "service 3"]
+		},
+
+		{
+			"name": "Qeubec Workshop",
+			"codeNumber": "LST07",
+			"Specialization":"Car Mechanic",
+			"phoneNumber" : "08123535367",
+			"address": "Ketu Bus-stop, Lagos",
+			"imgurl" : "tech7.jpg",
+			"services": ["Tyre replacement", "Tyre guage", "General car services"]
+		},	
+
+		{
+			"name": "Mechanic Shola",
+			"codeNumber": "LST08",
+			"Specialization":"Automobile Mechanic",
+			"phoneNumber" : "07033185243",
+			"address": "Alausa Shopping Mall, Lagos",
+			"imgurl" : "tech8.jpg",
+			"services": ["Service 1", "service 2", "service 3"]
+		},	
+
+		{
+			"name": "Proofs Trailer Camp",
+			"codeNumber": "LST09",
+			"Specialization":"Commercial Trailer Technician",
+			"phoneNumber" : "08056024534",
+			"address": "4, George Street, Shomolu, Lagos",
+			"imgurl" : "tech9.jpg",
+			"services": ["Service 1", "service 2", "service 3"]
+		},	
+
+		{
+			"name": "Vikson Bus Workshop",
+			"codeNumber": "LST010",
+			"Specialization":"Bus Mechanic",
+			"phoneNumber" : "080978675678",
+			"address": "#33, Allen Roundabout, Lagos",
+			"imgurl" : "tech10.jpg",
+			"services": ["Service 1", "service 2", "service 3"]
+		}	
+	
+]
+
+

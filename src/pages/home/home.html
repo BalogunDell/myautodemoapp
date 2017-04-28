@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+     <img src="assets/icon/logo.gif" class="logo">
+    </ion-title>
+  
+
+  <ion-buttons start>
+      <button icon-only ion-button>
+        <ion-icon name="home" ios="ios-home" md="md-home"></ion-icon>
+      </button>
+  </ion-buttons>
+
+  </ion-navbar>
+
+
+</ion-header>
+  
+<ion-content padding>
+
+<ion-toolbar>
+  <ion-searchbar
+    [(showCancelButton)] = "shouldShowCancel"
+    (ionInput) = "getItems($event)"></ion-searchbar>
+</ion-toolbar>
+
+<ion-spinner *ngIf = "searching" name="bubbles" class="loader"></ion-spinner>
+
+  <ion-list>
+
+    <ion-item class="item_list" *ngFor = "let eachTech of results" (click) = "showDetails(eachTech)" detail-push>
+    <ion-thumbnail item-left>
+        <img src="assets/images/{{eachTech.imgurl}}">
+      </ion-thumbnail>
+      <h2 text-wrap >{{eachTech.Specialization}}</h2>
+            <ion-item-group>
+            <ion-icon name="locate" item-left></ion-icon>{{eachTech.address}}
+          </ion-item-group>
+    </ion-item>
+  </ion-list>
+ 
+</ion-content>
